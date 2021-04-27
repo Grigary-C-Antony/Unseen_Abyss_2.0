@@ -6,5 +6,5 @@
 
 <br>
 <br>
-<img src="https://github.com/Grigary-C-Antony/Unseen_Abyss_2.0/raw/main/ezgif-3-e22d97da0373.gif" alt="sample">
+<img src="https://github.com/Grigary-C-Antony/Unseen_Abyss_2.0/raw/main/ezgif-3-e22d97da0373.gif" alt="sample" width="400">
 <a id="raw-url" href="https://github.com/Grigary-C-Antony/Unseen_Abyss_2.0/raw/main/app-release.apk">Download APP</a>
