@@ -29,7 +29,7 @@ class _Maper_ViewState extends State<Maper_View> {
 
   getlocationfromSheet(Uint8List imageData) async {
     var raw = await http.get(Uri.parse(
-        "https://script.google.com/macros/s/AKfycbxDPzsgvKfkSpAO4m0WN8S-JkWcAiYOuknPJ4qpg0OipyfvADwrSMAA/exec"));
+        "https://script.google.com/macros/s/<api here>/exec"));
     var jsonmarker = convert.jsonDecode(raw.body);
 
     gshetMarker = jsonmarker.map((json) => MarkerModel.fromJson(json)).toList();
