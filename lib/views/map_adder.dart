@@ -27,7 +27,7 @@ class _MapAdderState extends State<MapAdder> {
     // String postX;
     // String postY;
     String URL =
-        "https://script.google.com/macros/s/AKfycbxDPzsgvKfkSpAO4m0WN8S-JkWcAiYOuknPJ4qpg0OipyfvADwrSMAA/exec?marker_name=$postName&marker_id=$postId&x=$postY&y=$postX";
+        "https://script.google.com/macros/s/<your Api>/exec?marker_name=$postName&marker_id=$postId&x=$postY&y=$postX";
     try {
       await http.get(
         // URL + "?marker_name=$postName&marker_id=$postId&x=$postY&y=$postX");
